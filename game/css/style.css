@@ -1,0 +1,28 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5  arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '黑体', '宋体', Tahoma, Arial, Helvetica, STHeiti; }
+body{ background:#fff; color:#535353;overflow-x: hidden; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; }
+ul, ol,li { list-style:none;  }
+a { text-decoration:none;color: #535353; }
+a:hover { text-decoration:none; }
+fieldset, img { border:0; }
+img{display: block; }
+button, input, select, textarea { font-size:100%; outline: none; }
+table { border-collapse:collapse; border-spacing:0; }
+/* Common */
+.fl { float:left; display: inline; }
+.fr { float:right; display: inline; }
+.clear { clear:both; }
+/*万能闭合*/
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }
+.clearfix {display:block;}
+.w100{ width:100%;}
+.hide{display: none; }
+.wrap{ position: relative;}
+html<*{display: none !important;}
+html,body,.wrap{ width: 100%; height: 100%; }
+body.on{ overflow: auto;}
+body{background: #000000;}
+
+#game{ position: relative; overflow: hidden; width: 100%; height: 100%;}
